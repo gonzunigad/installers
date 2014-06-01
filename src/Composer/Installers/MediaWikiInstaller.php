@@ -1,5 +1,5 @@
 <?php
-namespace Composer\Installers;
+namespace Gonzunigad\Installers;
 
 class MediaWikiInstaller extends BaseInstaller
 {

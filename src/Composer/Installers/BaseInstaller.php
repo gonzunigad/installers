@@ -1,5 +1,5 @@
 <?php
-namespace Composer\Installers;
+namespace Gonzunigad\Installers;
 
 use Composer\Composer;
 use Composer\Package\PackageInterface;

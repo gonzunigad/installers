@@ -1,6 +1,6 @@
 {
-    "name": "composer/installers",
-    "type": "composer-installer",
+    "name": "gonzunigad/installers",
+    "type": "gonzunigad-installer",
     "license": "MIT",
     "description": "A multi-framework Composer library installer",
     "keywords": [
@@ -48,10 +48,10 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Composer\\Installers\\": "src/" }
+        "psr-0": { "Gonzunigad\\Installers\\": "src/" }
     },
     "extra": {
-        "class": "Composer\\Installers\\Installer",
+        "class": "Gonzunigad\\Installers\\Installer",
         "branch-alias": {
             "dev-master": "1.0-dev"
         }

@@ -1,7 +1,7 @@
 <?php
-namespace Composer\Installers\Test;
+namespace Gonzunigad\Installers\Test;
 
-use Composer\Installers\Installer;
+use Gonzunigad\Installers\Installer;
 use Composer\Util\Filesystem;
 use Composer\Package\Package;
 use Composer\Package\RootPackage;
@@ -356,7 +356,7 @@ class InstallerTest extends TestCase
     {
         $package = new Package('foo', '1.0.0', '1.0.0');
 
-        $installer = $this->getMock('Composer\Installers\Installer', array('getInstallPath'), array($this->io, $this->composer));
+        $installer = $this->getMock('Gonzunigad\Installers\Installer', array('getInstallPath'), array($this->io, $this->composer));
         $installer->expects($this->once())->method('getInstallPath')->with($package)->will($this->returnValue(sys_get_temp_dir().'/foo'));
 
         $repo = $this->getMock('Composer\Repository\InstalledRepositoryInterface');

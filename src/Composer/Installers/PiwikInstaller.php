@@ -1,10 +1,10 @@
 <?php
-namespace Composer\Installers;
+namespace Gonzunigad\Installers;
 
 /**
  * Class PiwikInstaller
  *
- * @package Composer\Installers
+ * @package Gonzunigad\Installers
  */
 class PiwikInstaller extends BaseInstaller
 {

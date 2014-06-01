@@ -1,5 +1,5 @@
 <?php
-namespace Composer\Installers;
+namespace Gonzunigad\Installers;
 
 /**
  * An installer to handle TYPO3 Flow specifics when installing packages.

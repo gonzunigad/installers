@@ -1,7 +1,7 @@
 <?php
-namespace Composer\Installers\Test;
+namespace Gonzunigad\Installers\Test;
 
-use Composer\Installers\MediaWikiInstaller;
+use Gonzunigad\Installers\MediaWikiInstaller;
 use Composer\Package\Package;
 use Composer\Composer;
 

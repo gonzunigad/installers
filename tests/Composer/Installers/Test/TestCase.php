@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Composer\Installers\Test;
+namespace Gonzunigad\Installers\Test;
 
 use Composer\Package\Version\VersionParser;
 use Composer\Package\Package;

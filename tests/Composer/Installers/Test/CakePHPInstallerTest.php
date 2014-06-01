@@ -1,7 +1,7 @@
 <?php
-namespace Composer\Installers\Test;
+namespace Gonzunigad\Installers\Test;
 
-use Composer\Installers\CakePHPInstaller;
+use Gonzunigad\Installers\CakePHPInstaller;
 use Composer\Package\Package;
 use Composer\Composer;
 

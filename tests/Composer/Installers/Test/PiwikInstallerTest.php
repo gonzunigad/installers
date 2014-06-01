@@ -1,15 +1,15 @@
 <?php
-namespace Composer\Installers\Test;
+namespace Gonzunigad\Installers\Test;
 
 use Composer\Composer;
-use Composer\Installers\PiwikInstaller;
+use Gonzunigad\Installers\PiwikInstaller;
 use Composer\Package\Package;
 use Composer\Package\PackageInterface;
 
 /**
  * Class PiwikInstallerTest
  *
- * @package Composer\Installers\Test
+ * @package Gonzunigad\Installers\Test
  */
 class PiwikInstallerTest extends TestCase
 {

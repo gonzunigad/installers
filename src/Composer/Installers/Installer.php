@@ -1,5 +1,5 @@
 <?php
-namespace Composer\Installers;
+namespace Gonzunigad\Installers;
 
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
@@ -67,7 +67,7 @@ class Installer extends LibraryInstaller
             );
         }
 
-        $class = 'Composer\\Installers\\' . $this->supportedTypes[$frameworkType];
+        $class = 'Gonzunigad\\Installers\\' . $this->supportedTypes[$frameworkType];
         $installer = new $class($package, $this->composer);
 
         return $installer->getInstallPath($package, $frameworkType);
@@ -132,7 +132,7 @@ class Installer extends LibraryInstaller
     {
         $pattern = false;
         if (!empty($this->supportedTypes[$frameworkType])) {
-            $frameworkClass = 'Composer\\Installers\\' . $this->supportedTypes[$frameworkType];
+            $frameworkClass = 'Gonzunigad\\Installers\\' . $this->supportedTypes[$frameworkType];
             /** @var BaseInstaller $framework */
             $framework = new $frameworkClass;
             $locations = array_keys($framework->getLocations());
