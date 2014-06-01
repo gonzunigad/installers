@@ -47,6 +47,7 @@ class Installer extends LibraryInstaller
         'symfony1'     => 'Symfony1Installer',
         'wolfcms'      => 'WolfCMSInstaller',
         'wordpress'    => 'WordPressInstaller',
+        'freshwork'    => 'FreshworkInstaller',
         'zend'         => 'ZendInstaller',
         'zikula'       => 'ZikulaInstaller',
         'typo3-flow'   => 'TYPO3FlowInstaller',
